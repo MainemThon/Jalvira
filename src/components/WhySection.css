@@ -1,0 +1,87 @@
+.why-section {
+  padding: 80px 0;
+}
+
+.why-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.why-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.why-text p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.check-list {
+  list-style: none;
+}
+
+.check-list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.check-list svg {
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.why-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visual-box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pulse-ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+}
+
+.visual-content {
+  width: 200px;
+  height: 200px;
+  background: var(--gradient);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 20px 60px rgba(59, 130, 246, 0.4);
+  color: white;
+}
+
+@media (max-width: 968px) {
+  .why-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .why-text h2 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,103 @@
+.pricing-section {
+  padding: 80px 0;
+  background: var(--dark-card);
+}
+
+.pricing-card {
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--dark-bg);
+  border-radius: 16px;
+  border: 2px solid rgba(59, 130, 246, 0.3);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.pricing-header {
+  background: var(--gradient);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.pricing-header h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.price .currency {
+  font-size: 2rem;
+  align-self: flex-start;
+  margin-top: 0.5rem;
+}
+
+.price .amount {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.price .period {
+  font-size: 1.2rem;
+  align-self: flex-end;
+  margin-bottom: 0.8rem;
+  opacity: 0.9;
+}
+
+.pricing-features {
+  padding: 3rem 2rem;
+}
+
+.pricing-features ul {
+  list-style: none;
+}
+
+.pricing-features li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.pricing-features svg {
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.pricing-footer {
+  padding: 0 2rem 3rem;
+}
+
+.pricing-note {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.pricing-note a {
+  color: var(--primary-color);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.pricing-note a:hover {
+  text-decoration: underline;
+  color: var(--primary-dark);
+}
+
+@media (max-width: 768px) {
+  .price .amount {
+    font-size: 3rem;
+  }
+}
