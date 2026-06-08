@@ -122,7 +122,7 @@ const Hero = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Start Free Trial
+              Request Demo
             </motion.button>
             <motion.button
               className="btn-secondary btn-lg"

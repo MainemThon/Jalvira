@@ -54,7 +54,7 @@ const Navbar = () => {
               <a onClick={() => scrollToSection('pricing')}>Pricing</a>
             </motion.li>
             <motion.li whileHover={{ scale: 1.05 }}>
-              <a onClick={() => scrollToSection('contact')} className="btn-primary">Get Started</a>
+              <a onClick={() => scrollToSection('contact')} className="btn-primary">Request Demo</a>
             </motion.li>
           </ul>
           

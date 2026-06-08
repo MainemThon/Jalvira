@@ -83,14 +83,16 @@ const Pricing = () => {
           </div>
           
           <div className="pricing-footer">
-            <motion.button
+            <motion.a
+              href="https://whop.com/joined/jalvira-it-operations-security/products/jalvira-1-month-license/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary btn-lg btn-block"
-              onClick={scrollToContact}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Get Started
-            </motion.button>
+              Purchase Now
+            </motion.a>
             <p className="pricing-note">
               Need more than 50 devices? <a onClick={scrollToContact}>Contact us</a> for custom enterprise pricing.
             </p>
